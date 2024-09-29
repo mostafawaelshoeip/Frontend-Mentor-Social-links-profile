@@ -1,0 +1,134 @@
+/* All elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    color: var(--White-color);
+    text-decoration: none;
+}
+
+/*  main colors  */
+:root {
+    --main-color: hsl(0, 0%, 20%);
+    --lemon-color: hsl(75, 94%, 57%);
+    --White-color: hsl(0, 0%, 100%);
+    --light-black: hsl(0, 0%, 12%);
+    --black-color: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--black-color);
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: var(--White-color);
+}
+
+/* Mani content */
+main {
+    max-width: 23rem;
+    max-height: 34rem;
+    background-color: var(--light-black);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+header div {
+    width: 100%;
+    text-align: center;
+}
+
+header img {
+    max-width: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+header h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+header h5 {
+    width: 100%;
+    text-align: center;
+    color: var(--lemon-color);
+}
+
+/* Quote */
+q {
+    width: 100%;
+    padding: 1.5rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+/* Links */
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+ul li {
+    text-align: center;
+    width: 85%;
+    background-color: var(--main-color);
+    margin: 0.5rem;
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+
+ul li a {
+    display: inline-block;
+    width: 100%;
+}
+
+ul li:hover {
+    background-color: var(--lemon-color);
+    cursor: pointer;
+}
+
+ul li:hover a {
+    color: var(--light-black);
+}
+
+/* Media Query */
+@media (max-width: 375px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    main {
+        margin: 0 1rem;
+    }
+
+}
+
