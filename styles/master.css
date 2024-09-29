@@ -64,9 +64,9 @@ header div {
 }
 
 header img {
-    max-width: 5rem;
+    max-width: 5.5rem;
     border-radius: 50%;
-    margin: 1rem;
+    margin: 0.8rem;
 }
 
 header h2 {
@@ -101,13 +101,14 @@ ul li {
     width: 85%;
     background-color: var(--main-color);
     margin: 0.5rem;
-    padding: 0.6rem;
+    padding: 0.7rem;
     border-radius: 8px;
 }
 
 ul li a {
     display: inline-block;
     width: 100%;
+    font-weight: 600;
 }
 
 ul li:hover {
