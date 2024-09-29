@@ -35,13 +35,12 @@ body {
     width: 100vw;
     height: 100vh;
     color: var(--White-color);
-    font-size: 15px;
 }
 
 /* Main content */
 main {
     max-width: 23rem;
-    height: 37rem;
+    height: 38rem;
     background-color: var(--light-black);
     display: flex;
     flex-flow: row wrap;
@@ -94,7 +93,7 @@ ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
 }
 
 ul li {
