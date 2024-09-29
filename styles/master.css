@@ -40,7 +40,7 @@ body {
 /* Main content */
 main {
     max-width: 23rem;
-    max-height: 34rem;
+    max-height: 36rem;
     background-color: var(--light-black);
     display: flex;
     flex-flow: row wrap;
